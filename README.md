@@ -11,7 +11,7 @@ conda config --add channels conda-forge
 
 conda update --all
 
-### setup pytorch in the activated condo
+### setup pytorch in the activated conda
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 
 (or try if above doesn't work: conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch -c nvidia)
