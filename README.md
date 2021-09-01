@@ -1,5 +1,5 @@
 # access
-## yshep server 2 ip: 165.132.111.50
+### yshep server 2 ip: 165.132.111.50
 
 # setup ROOT in anaconda (and qiskit etc.)
 ### WRARNING!!! this recipe with csh or tcsh based
