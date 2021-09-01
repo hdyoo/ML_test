@@ -68,13 +68,15 @@ http://localhost:8000/tree? ## in your browser (like chrome, safari etc.)
 # Test ML example in ROOT
 cd $ROOTSYS/tutorials/tmva/ ### in your terminal (in remote server)
 
-root -l ./TMVAClassification.C\(\"BDT,SVM,DNN_CPU,DNN_GPU,MLP\"\) >&log& ## run various ML methods
+root -l ./TMVAClassification.C\(\"BDT,SVM,DNN_CPU,DNN_GPU,MLP\"\) ## run various ML methods, many other options available in the file
 
 # Test DNN example in jupyter notebook
 ! in jupyter notebook, follow ClassificationPyTorch.py
+
 cd $ROOTSYS/tutorials/tmva/pytorch/ ### in your terminal (in remote server)
 
 wget http://root.cern.ch/files/tmva_class_example.root  ### in your terminal (in remote server)
 
 ! copy ClassificationPyTorch.py to your jupyer notebook and run
+
 ! example attached: https://github.com/hdyoo/ML_test/blob/main/Test_Pytorch.ipynb
