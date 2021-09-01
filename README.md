@@ -4,8 +4,11 @@
 # setup ROOT in anaconda (and qiskit etc.)
 ### ROOT homepage: https://root.cern 
 conda create -c conda-forge --name root_torch root
+
 conda activate root_torch
+
 conda config --add channels conda-forge
+
 conda update --all
 
 ### setup pytorch in the activated condo
