@@ -53,10 +53,13 @@ jupyter notebook --generate-config
 
 vi ~/.jupyter/jupyter_notebook_config.py => c.NotebookApp.allow_remote_access=True
 
+jupyter notebook --port=9000 --no-browser & ### kill this job if you want to disconnect with the server
+
 jupyter notebook password ## setup your password
 
 ### at local terminal
-ssh -N -f -L 8880:localhost:9000 -p 4000 (your id)@165.132.111.50
+ssh -N -f -L 8000:localhost:9000 -p 4000 (your id)@165.132.111.50
 
-http://localhost:8880/tree? ## in your browser (like chrome, safari etc.)
+http://localhost:8000/tree? ## in your browser (like chrome, safari etc.)
 
+!! you should click "quit" in your browser to finish it
