@@ -1,7 +1,7 @@
 # access
 ### yshep server 2 ip: 165.132.111.50
 
-# setup ROOT in anaconda (and qiskit etc.)
+# setup environment in anaconda (ROOT, pytorch, qiskit etc.)
 ### WRARNING!!! this recipe with csh or tcsh based
 
 ### add the following in your .cshrc (shell setup file => remove '!' in all below lines when you copy to your .cshrc file)
@@ -21,7 +21,7 @@
 
 !# <<< conda initialize <<<
 
-### ROOT homepage: https://root.cern 
+### setup ROOT in anaconda (https://root.cern)
 conda create -c conda-forge --name root_torch root
 
 conda activate root_torch
