@@ -4,14 +4,21 @@
 # setup ROOT in anaconda (and qiskit etc.)
 ### WRARNING!!! this recipe with csh or tcsh based
 
-### add the following in your .cshrc (shell setup file)
+### add the following in your .cshrc (shell setup file => remove '!' in all below lines when you copy to your .cshrc file)
 !# >>> conda initialize >>>
+
 !# !! Contents within this block are managed by 'conda init' !!
-if ( -f "/home/anaconda3/etc/profile.d/conda.csh" ) then
-    source "/home/anaconda3/etc/profile.d/conda.csh"
-else
-    setenv PATH "/home/anaconda3/bin:$PATH"
-endif
+
+!if ( -f "/home/anaconda3/etc/profile.d/conda.csh" ) then
+    
+!    source "/home/anaconda3/etc/profile.d/conda.csh"
+
+!else
+    
+!    setenv PATH "/home/anaconda3/bin:$PATH"
+
+!endif
+
 !# <<< conda initialize <<<
 
 ### ROOT homepage: https://root.cern 
