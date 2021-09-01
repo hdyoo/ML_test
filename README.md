@@ -2,7 +2,7 @@
 ## yshep server 2 ip: 165.132.111.50
 
 # setup ROOT in anaconda (and qiskit etc.)
-## ROOT homepage: https://root.cern 
+### ROOT homepage: https://root.cern 
 conda create -c conda-forge --name root_torch root
 conda activate root_torch
 conda config --add channels conda-forge
