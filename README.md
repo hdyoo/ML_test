@@ -28,7 +28,7 @@ conda activate root_torch
 
 conda config --add channels conda-forge
 
-conda update --all
+conda update --all  ## do this whenever you install some packages like below
 
 ### setup pytorch in the activated conda (https://pytorch.org)
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
